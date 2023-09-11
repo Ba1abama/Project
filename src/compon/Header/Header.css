@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    .wrapper {
+
+
+        .menu {
+            list-style-type: none;
+            padding-right: 10px;
+            border-right: 1px solid black;
+
+            >li {
+                display: inline-block;
+                > a {
+                    display: block;
+                    font-size: 16px;
+                    color: #222;
+                    padding: 0 6px;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .buttons {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            padding-left: 10px;
+
+
+            .singUp {
+                font-size: 16px;
+                color: #222;
+                padding: 0 6px;
+            }
+        }
+    }
+}
